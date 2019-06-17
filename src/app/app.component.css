@@ -1,0 +1,80 @@
+#bilal {
+  color: rgb(252, 252, 252);
+  font-size: 40px;
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: left;
+  padding-left: 7em;
+}
+
+#ventures {
+  color: rgb(252, 252, 252);
+  font-size: 40px;
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: right;
+  padding-right: 7em;
+}
+
+#opener {
+  background-size: cover;
+  background-image: url('../../oceanpic.jpg');
+}
+
+mat-toolbar {
+  background: gray;
+  color: white;
+  
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex: 1 0 auto;
+  flex-shrink: 0;
+}
+
+
+
+
+
+ul {
+  display: inline;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: rgb(167, 0, 0);
+  color: white;
+}
+
+.fa-google {
+  background: rgb(197, 65, 48);
+  color: white;
+}
+
+.fa-github {
+  background: rgb(172, 11, 172);
+  color: white;
+}

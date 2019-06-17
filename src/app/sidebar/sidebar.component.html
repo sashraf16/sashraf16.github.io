@@ -1,0 +1,70 @@
+<!-- <div class="buttons2">
+  
+      <ul>
+        <button mat-button>home</button>
+      </ul>
+      <ul>
+        <button mat-button>about us</button>
+      </ul>
+      <ul>
+        <button mat-button>projects</button>
+      </ul>
+
+</div> -->
+
+<div class="output-size">
+    <mat-button-toggle-group vertical value="home">
+    
+      <mat-button-toggle value="home"(change)="sendpage($event.value)">home</mat-button-toggle>
+      <br>
+      <mat-button-toggle value="about" (change)="sendpage($event.value)">about</mat-button-toggle>
+      <br> 
+      <mat-button-toggle value="projects" (change)="sendpage($event.value)">projects</mat-button-toggle>
+      <br> 
+    </mat-button-toggle-group>
+  </div>
+
+
+<!-- <mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened> -->
+    <!-- </mat-sidenav>
+    <mat-sidenav-content>Main content</mat-sidenav-content>
+  </mat-sidenav-container> -->
+
+<!-- <mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over">
+    <mat-toolbar>
+      <mat-toolbar-row>
+        <h2>app toolbar title translate</h2>
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+    <mat-nav-list>
+      <h2 matSubheader>my work translate</h2>
+
+      <a
+        *ngFor="let item of testlist"
+        mat-list-item
+        (click)="sidenav.close()"
+        [routerLink]="[item.route]"
+        routerLinkActive="list-item-active"
+      >
+        <mat-icon matListIcon> item icon </mat-icon>
+        item title
+      </a>
+
+      <mat-divider></mat-divider>
+
+      ...
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+     <crm-navigation-bar
+      *ngIf="isAuthenticated()"
+      (toggleSidenav)="sidenav.toggle()"
+    >
+    </crm-navigation-bar> 
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container> -->

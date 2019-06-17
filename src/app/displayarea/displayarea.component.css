@@ -1,0 +1,21 @@
+#lefthalf{
+    max-width:20%;  
+    width:20%; 
+    float:left; 
+    height:45vh;
+    max-height: 20%; 
+    /* overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow:scroll; */
+  }
+  
+  #righthalf{
+    max-width:80%;  
+    width:80%; 
+    float:right; 
+    height:45vh;
+    max-height: 20%; 
+    /* overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow:scroll; */
+  }

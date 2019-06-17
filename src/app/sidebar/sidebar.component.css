@@ -1,0 +1,25 @@
+button {
+    color: white;
+    background-color: gray;
+}
+
+mat-button-toggle {
+    color: white;
+    background-color:gray;
+}
+
+mat-button-toggle:hover{
+    background-color: rgb(92, 18, 18);
+}
+
+.mat-button-toggle-checked{
+    background-color: rgb(68, 9, 14);
+}
+
+button:hover{
+    background-color: rgb(92, 18, 18);
+}
+
+.output-size {
+    padding-left: 10%;
+}

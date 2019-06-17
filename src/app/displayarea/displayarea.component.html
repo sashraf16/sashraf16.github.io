@@ -1,0 +1,14 @@
+<div id="lefthalf">
+  <app-sidebar (pageselect)="pageupdate($event)"></app-sidebar>
+</div>
+<div id="righthalf">
+  <div *ngIf="page==='home'">
+    <app-homepage></app-homepage>
+  </div>
+  <div *ngIf="page==='about'">
+    <app-aboutpage></app-aboutpage>
+  </div>
+  <div *ngIf="page==='projects'">
+    <app-projectspage></app-projectspage>
+  </div>
+</div>
